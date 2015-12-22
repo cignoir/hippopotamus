@@ -1058,6 +1058,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="seed-fu (vbundled(2.3.5), D:/workspace/hippopotamus/vendor/bundler/ruby/2.1.0/gems/seed-fu-2.3.5) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundler/ruby/2.1.0/gems/seed-fu-2.3.5/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundler/ruby/2.1.0/gems/seed-fu-2.3.5/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="sexp_processor (vbundled(4.6.0), D:/workspace/hippopotamus/vendor/bundler/ruby/2.1.0/gems/sexp_processor-4.6.0) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundler/ruby/2.1.0/gems/sexp_processor-4.6.0/lib" />
