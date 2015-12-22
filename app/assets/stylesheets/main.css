@@ -1,0 +1,35 @@
+#wrapper {
+    position: relative;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.grid-item {
+    margin: 10px;
+    width: 100px;
+    height: 62px;
+    padding: 5px;
+    border: 1px solid #eee;
+    float: left; /*Lazy Load*/
+}
+
+.grid-item.x1 {
+    width: 150px;
+    height: 93px;
+}
+
+.grid-item.x2 {
+    width: 300px;
+    height: 185px;
+}
+
+.grid-item.x3 {
+    width: 600px;
+    height: 370px;
+}

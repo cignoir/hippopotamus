@@ -622,6 +622,18 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="masonry-rails (vbundled(0.2.4), D:/workspace/hippopotamus/vendor/bundler/ruby/2.1.0/gems/masonry-rails-0.2.4) [path][gem]">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundler/ruby/2.1.0/gems/masonry-rails-0.2.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundler/ruby/2.1.0/gems/masonry-rails-0.2.4/vendor" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundler/ruby/2.1.0/gems/masonry-rails-0.2.4/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundler/ruby/2.1.0/gems/masonry-rails-0.2.4/vendor" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="meta_request (vbundled(0.3.4), D:/workspace/hippopotamus/vendor/bundler/ruby/2.1.0/gems/meta_request-0.3.4) [path][gem]">
         <CLASSES>
           <root url="file://$MODULE_DIR$/vendor/bundler/ruby/2.1.0/gems/meta_request-0.3.4/lib" />
