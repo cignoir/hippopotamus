@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20151222104540) do
     t.integer  "workshop_id"
     t.integer  "duration"
     t.integer  "required_level"
+    t.integer  "amount"
     t.datetime "created_at",     null: false
     t.datetime "updated_at",     null: false
   end
@@ -37,6 +38,7 @@ ActiveRecord::Schema.define(version: 20151222104540) do
 
   create_table "workshops", force: :cascade do |t|
     t.string   "name"
+    t.integer  "rank"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

@@ -7,5 +7,6 @@ CSV.table('db/fixtures/csv/products.csv').each do |row|
     s.workshop_id = row[:workshop_id]
     s.duration = row[:duration]
     s.required_level = row[:required_level]
+    s.amount = row[:amount]
   end
 end

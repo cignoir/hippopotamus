@@ -5,6 +5,7 @@ class CreateProducts < ActiveRecord::Migration
       t.references :workshop, index: true, foreign_key: true
       t.integer :duration
       t.integer :required_level
+      t.integer :amount
 
       t.timestamps null: false
     end
