@@ -2,8 +2,7 @@ Hippopotamus
 ---
 
 ``` sh
-$ bundle update
-$ bundle install --path vendor/bundler
+$ bundle install --path vendor/bundle
 $ bundle exec rake db:migrate
 $ bundle exec rake db:seed_fu
 $ bundle exec rails s
