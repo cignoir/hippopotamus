@@ -9,6 +9,6 @@ class HomeController < ApplicationController
     @takibi = [1, params[:takibi].to_i].max
     @daiku = [1, params[:daiku].to_i].max
 
-    @products = Product.all
+    @products = Product.all.to_a.sort_by(&:total_actual_duration).reverse
   end
 end

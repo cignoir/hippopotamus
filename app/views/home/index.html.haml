@@ -26,16 +26,16 @@
             .col-sm-10
               .row
                 .col-sm-8 生産時間
-                .col-sm-4.text-right= product.duration.format('%H:%M:%S')
+                .col-sm-4.text-right= product.duration.format('%th:%M:%S')
               .row
                 .col-sm-8 1回あたり生産量
                 .col-sm-4.text-right= product.actual_amount
               .row
                 .col-sm-8 単位生産時間
-                .col-sm-4.text-right= product.actual_duration.format('%H:%M:%S')
+                .col-sm-4.text-right= product.actual_duration.format('%th:%M:%S')
               .row
                 .col-sm-8 実質単位生産時間
-                .col-sm-4.text-right= product.total_actual_duration.format('%H:%M:%S')
+                .col-sm-4.text-right= product.total_actual_duration.format('%th:%M:%S')
 
 :javascript
   $('#logo').tooltip({title: 'いいえ、妖精です。', placement: 'bottom'});
