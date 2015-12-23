@@ -1,4 +1,8 @@
+require 'memoist'
+
 class Product < ActiveRecord::Base
+  extend Memoist
+
   belongs_to :workshop
 
   def processed?
@@ -61,4 +65,6 @@ class Product < ActiveRecord::Base
 
     html
   end
+
+  memoize :all_receipts, :total_actual_duration, :tooltip, :actual_amount, :actual_duration, :workshop, :receipts, :processed?
 end
