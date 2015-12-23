@@ -9,6 +9,19 @@ class Product < ActiveRecord::Base
     Receipt.where(product_id: id)
   end
 
+  def all_receipts
+    recursive_receipts(receipts)
+  end
+
+  def recursive_receipts(work_receipts, result = [])
+    work_receipts.each do |r|
+      children = Receipt.where(product_id: r.material_id)
+      result << children
+      recursive_receipts(children, result) if children.size > 0
+    end
+    result.flatten
+  end
+
   def duration
     Duration.new(sec)
   end
@@ -23,7 +36,7 @@ class Product < ActiveRecord::Base
 
   def total_actual_duration
     unless receipts.size.zero?
-      total = receipts.map{ |receipt| receipt.material.actual_duration.total * receipt.quantity }.inject(:+)
+      total = all_receipts.map{ |receipt| receipt.material.actual_duration.total * receipt.quantity }.inject(:+)
       Duration.new(actual_duration + total)
     else
       actual_duration
