@@ -3,7 +3,7 @@ class CreateProducts < ActiveRecord::Migration
     create_table :products do |t|
       t.string :name
       t.references :workshop, index: true, foreign_key: true
-      t.integer :duration
+      t.integer :sec
       t.integer :required_level
       t.integer :amount
 

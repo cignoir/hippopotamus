@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 20151222104540) do
   create_table "products", force: :cascade do |t|
     t.string   "name"
     t.integer  "workshop_id"
-    t.integer  "duration"
+    t.integer  "sec"
     t.integer  "required_level"
     t.integer  "amount"
     t.datetime "created_at",     null: false

@@ -1,4 +1,4 @@
-id,name,workshop_id,duration,required_level,amount
+id,name,workshop_id,sec,required_level,amount
 1,コーヒー豆,1,60,0,2
 2,ライ麦,1,300,2,2
 3,こけもも,1,1200,3,2
@@ -22,7 +22,7 @@ id,name,workshop_id,duration,required_level,amount
 21,仕掛け,5,3600,6,1
 22,小舟,5,5400,8,1
 23,ボタン,5,7200,14,1
-24,Producイワナ,6,1800,7,1
+24,イワナ,6,1800,7,1
 25,マグロ,6,3600,10,1
 26,大かます,6,7200,12,1
 27,マメルク,6,14400,36,1

@@ -1,35 +1,25 @@
-#wrapper {
-    position: relative;
-    max-width: 1400px;
-    margin: 0 auto;
+.container {
+    width: 90%;
 }
 
-#container {
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
-}
-
-.grid-item {
+.product {
+    width: 280px;
+    height: 90px;
     margin: 10px;
-    width: 100px;
-    height: 62px;
-    padding: 5px;
+    padding: 10px;
     border: 1px solid #eee;
     float: left; /*Lazy Load*/
+    font-size: xx-small;
 }
 
-.grid-item.x1 {
-    width: 150px;
-    height: 93px;
+.product.processed {
+    width: 280px;
+    height: 90px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid #aaa;
+    float: left; /*Lazy Load*/
+    font-size: xx-small;
 }
 
-.grid-item.x2 {
-    width: 300px;
-    height: 185px;
-}
-
-.grid-item.x3 {
-    width: 600px;
-    height: 370px;
-}
+.tooltip-inner { width: 300px; }

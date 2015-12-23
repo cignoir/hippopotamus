@@ -5,6 +5,7 @@ CSV.table('db/fixtures/csv/workshops.csv').each do |row|
     s.id = row[:id].to_i
     s.name = row[:name]
     s.rank = row[:rank].to_i
+    s.amount_up = row[:amount_up].to_i
   end
 end
 

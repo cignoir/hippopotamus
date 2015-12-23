@@ -8,4 +8,4 @@ $ bundle exec rake db:seed_fu
 $ bundle exec rails s
 ```
 
-then open [http://127.0.0.1:3000/](http://127.0.0.1:3000/)
+Then open [http://127.0.0.1:3000/](http://127.0.0.1:3000/)
