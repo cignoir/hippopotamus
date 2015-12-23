@@ -39,6 +39,7 @@ ActiveRecord::Schema.define(version: 20151222104540) do
   create_table "workshops", force: :cascade do |t|
     t.string   "name"
     t.integer  "rank"
+    t.integer  "amount_up"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
